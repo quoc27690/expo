@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@app/*": ["./src/app/*"],
+			"@screens/*": ["./src/screens/*"],
+			"@redux/*": ["./src/redux/*"],
+			"@stack/*": ["./src/stack/*"]
+		}
+	},
+	"exclude": ["node_modules"]
+}
